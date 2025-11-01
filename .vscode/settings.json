@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "data_handler.h": "c",
+        "cstdint": "c"
+    }
+}
