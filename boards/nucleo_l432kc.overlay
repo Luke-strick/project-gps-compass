@@ -1,6 +1,7 @@
 / {
 	aliases {
 		gnss = &gnss;
+        gps-usart = &usart1;
 	};
 };
 
@@ -9,7 +10,9 @@
     pinctrl-names = "default"; 
     current-speed = <9600>; 
     status = "okay";
-    gnss: gnss-nmea-generic {
+    gnss: gnss {
         compatible = "gnss-nmea-generic";
+        status = "okay";
+
     };
 };
