@@ -1,6 +1,6 @@
 #include "command_parser.h"
 #include "gps_config.h"
-#include "gps_data.h"
+#include "data_handler.h"
 #include <zephyr/kernel.h>
 #include <zephyr/device.h>
 #include <zephyr/drivers/uart.h>

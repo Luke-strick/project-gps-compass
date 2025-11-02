@@ -7,6 +7,6 @@ project(passthrough)
 target_sources(app PRIVATE 
     src/main.c
     src/gps_config.c
-    src/gps_data.c
+    src/data_handler.c
     src/command_parser.c
 )
